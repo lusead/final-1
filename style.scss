@@ -4,6 +4,7 @@
   padding: 10px;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 @mixin cf {
@@ -15,13 +16,24 @@
     }
 }
 
-h1{
+
+.container{
+  height:1000px;
+  width: 900px;
+  margin: 30px;
+  background-color: black;
+
+
+}
+
+.heading{
+  background-color: purple;
+  width: 840px;
   text-transform: uppercase;
-  padding-left: 25px;
-  background-color: red;
+  margin-left: 18px;
   font-family: 'Bitter', serif;
-
-
+  font-weight: 700;
+  position: relative;
 }
 
 
@@ -39,20 +51,27 @@ li{
 }
 
 
+
+
 .pad{
   height: 200px;
   width: 100%;
   appearance: none;
   background-color: blue;
-  border: 2px solid rgb(255, 0, 255);
+  border: 5px solid purple;
   border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #99FF00;
 }
 
 
 
 
+
+
+
 @keyframes fadeInOut{
-  0%    {background-color: rgba(255, 0, 255, 0);}
+  0%    {background-color: rgba(200, 0, 255, 0);}
   50%   {background-color: rgba(255, 0, 1, 0);}
   100%  {background-color: rgba(255, 0, 255, 0);}
 }
