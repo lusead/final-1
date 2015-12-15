@@ -50,18 +50,22 @@ for (var i = 0; i < pads.length; i++){
 
 
 var keyCode = {
-      q: 113,
-      w: 119,
-      e: 101,
-      r: 114,
-      a: 97,
-      s: 115,
-      d: 100,
-      f: 102,
-      z: 122,
-      x: 120,
-      c: 99,
-      v: 118
+  q: 113,
+  w: 119,
+  e: 101,
+  r: 114,
+  a: 97,
+  s: 115,
+  d: 100,
+  f: 102,
+  u: 117,
+  i: 105,
+  o: 111,
+  p: 112,
+  h: 104,
+  j: 106,
+  k: 107,
+  l: 108
 };
 
 
@@ -73,53 +77,69 @@ function keyPressListener(event) {
   console.log(event.keyCode);
 
   if (event.keyCode === keyCode.q){
-    console.log('Pressed q key');
-        pads[0].focus();
-        pads[0].click();
-  } else if(event.keyCode === keyCode.w) {
-    console.log('Pressed w key');
-        pads[1].focus();
-        pads[1].click();
-  } else if(event.keyCode === keyCode.e) {
-    console.log('Pressed e key');
-        pads[2].focus();
-        pads[2].click();
-  } else if(event.keyCode === keyCode.r) {
-        console.log('Pressed r key');
-        pads[3].focus();
-        pads[3].click();
-  } else if(event.keyCode === keyCode.a) {
-        console.log('Pressed a key');
-          pads[4].focus();
-          pads[4].click();
-  } else if(event.keyCode === keyCode.s) {
-        console.log('Pressed s key');
-          pads[5].focus();
-          pads[5].click();
-  } else if(event.keyCode === keyCode.d) {
-        console.log('Pressed d key');
-          pads[6].focus();
-          pads[6].click();
-  } else if(event.keyCode === keyCode.f) {
-        console.log('Pressed f key');
-          pads[7].focus();
-          pads[7].click();
-  } else if(event.keyCode === keyCode.z) {
-        console.log('Pressed z key');
-          pads[8].focus();
-          pads[8].click();
-  } else if(event.keyCode === keyCode.x) {
-        console.log('Pressed x key');
-          pads[9].focus();
-          pads[9].click();
-  } else if(event.keyCode === keyCode.c) {
-              console.log('Pressed c key');
-                pads[9].focus();
-                pads[9].click();
-  } else if(event.keyCode === keyCode.v) {
-              console.log('Pressed v key');
-                pads[10].focus();
-                pads[10].click();
+      console.log ('Pressed Q key');
+      pads[0].focus();
+      pads[0].click();
+  } else if (event.keyCode === keyCode.w){
+      console.log ('Pressed W key');
+      pads[1].focus();
+      pads[1].click();
+  } else if (event.keyCode === keyCode.e){
+      console.log ('Pressed E key');
+      pads[2].focus();
+      pads[2].click();
+  } else if (event.keyCode === keyCode.r){
+      console.log ('Pressed R key');
+      pads[3].focus();
+      pads[3].click();
+  } else if (event.keyCode === keyCode.a){
+      console.log ('Pressed A key');
+      pads[4].focus();
+      pads[4].click();
+  } else if (event.keyCode === keyCode.s){
+      console.log ('Pressed S key');
+      pads[5].focus();
+      pads[5].click();
+  } else if (event.keyCode === keyCode.d){
+      console.log ('Pressed D key');
+      pads[6].focus();
+      pads[6].click();
+  } else if (event.keyCode === keyCode.f){
+      console.log ('Pressed F key');
+      pads[7].focus();
+      pads[7].click();
+  } else if (event.keyCode === keyCode.u){
+      console.log ('Pressed U key');
+      pads[8].focus();
+      pads[8].click();
+  } else if (event.keyCode === keyCode.i){
+      console.log ('Pressed I key');
+      pads[9].focus();
+      pads[9].click();
+  } else if (event.keyCode === keyCode.o){
+      console.log ('Pressed O key');
+      pads[10].focus();
+      pads[10].click();
+  } else if (event.keyCode === keyCode.p){
+      console.log ('Pressed P key');
+      pads[11].focus();
+      pads[11].click();
+  } else if (event.keyCode === keyCode.h){
+      console.log ('Pressed H key');
+      pads[12].focus();
+      pads[12].click();
+  } else if (event.keyCode === keyCode.j){
+      console.log ('Pressed J key');
+      pads[13].focus();
+      pads[13].click();
+  } else if (event.keyCode === keyCode.k){
+      console.log ('Pressed K key');
+      pads[14].focus();
+      pads[14].click();
+  } else if (event.keyCode === keyCode.l){
+      console.log ('Pressed L key');
+      pads[15].focus();
+      pads[15].click();
   }
 
 }
