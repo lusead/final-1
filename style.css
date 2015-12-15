@@ -13,14 +13,18 @@
   background-color: black;
 }
 
+.container .drum-machine {
+  width: 100%;
+  height: auto;
+}
+
 .heading {
   background-color: purple;
   width: 840px;
   text-transform: uppercase;
-  margin-left: 18px;
+  padding-left: 18px;
   font-family: 'Bitter', serif;
   font-weight: 700;
-  position: relative;
 }
 
 .trigger-pads {
@@ -52,6 +56,11 @@ li {
   border-radius: 3px;
   text-transform: uppercase;
   background-color: #99FF00;
+}
+
+.pad:focus {
+  outline: none;
+  background-color: magenta;
 }
 
 @-webkit-keyframes fadeInOut {

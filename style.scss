@@ -23,6 +23,11 @@
   margin: 30px;
   background-color: black;
 
+.drum-machine{
+  width: 100%;
+  height: auto;
+
+}
 
 }
 
@@ -30,7 +35,7 @@
   background-color: purple;
   width: 840px;
   text-transform: uppercase;
-  margin-left: 18px;
+  padding-left: 18px;
   font-family: 'Bitter', serif;
   font-weight: 700;
 }
@@ -52,7 +57,7 @@ li{
 
 
 
-.pad{
+.pad {
   height: 200px;
   width: 100%;
   appearance: none;
@@ -60,7 +65,18 @@ li{
   border: 5px solid purple;
   border-radius: 3px;
   text-transform: uppercase;
+
   background-color: #99FF00;
+
+
+  &:focus{
+    outline:none;
+    background-color: rgb(255, 0, 255);
+  }
+
+
+
+
 }
 
 

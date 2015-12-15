@@ -28,6 +28,7 @@ var samples = [
 
 window.addEventListener('keypress', keyPressListener);
 
+
 // Create function to add audio samples to listener
 function addSamplesToListener(i){
 
@@ -56,7 +57,7 @@ var keyCode = {
   r: 114,
   a: 97,
   s: 115,
-  d: 100,
+  d: 100, 
   f: 102,
   u: 117,
   i: 105,
